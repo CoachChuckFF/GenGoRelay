@@ -16,7 +16,7 @@ function sendSMS(message: string) {
     const smsMessage = new api.SmsMessage();
     smsMessage.from = CLICKSEND_FROM;
     smsMessage.to = CLICKSEND_TO;
-    smsMessage.body = message;
+    smsMessage.body = message.substring(0, 280);
 
     const smsCollection = new api.SmsMessageCollection();
     smsCollection.messages = [smsMessage];
