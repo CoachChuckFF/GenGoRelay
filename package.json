@@ -1,0 +1,17 @@
+{
+  "name": "gengorelay",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "clicksend": "^5.0.79",
+    "discord.js": "^14.14.1",
+    "request": "^2.88.2"
+  }
+}
